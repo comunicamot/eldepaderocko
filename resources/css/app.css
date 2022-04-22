@@ -1,0 +1,118 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './news.css';
+@import './swiper.css';
+@import './sidebar.css';
+@import './search_home.css';
+@import './us.css';
+@import './contact.css';
+@import './complaint.css';
+@import './admin.css';
+@font-face {
+    font-family: "Raleway Thin";
+    src: local("Raleway Thin"),
+        url('/fonts/Raleway.ttf');
+}
+
+body {
+    font-family: "Raleway Thin";
+
+
+}
+
+.ck-content {
+    @apply prose;
+  }
+
+
+  /* ClassicEditor.create( document.querySelector( '#editor' ) ).then(()=>document.querySelector( '.ck-content' ).forEach(d=>d.classList.add('prose')); */
+
+
+
+
+
+.dog_bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/dog.webp');
+    height: 485px;
+    width: 100%;
+    border-radius: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+
+}
+
+.dog_text {
+
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 70px; */
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+}
+
+.space-page {
+    height: 100px;
+    width: 100%;
+}
+
+.space-page-md {
+    height: 55px;
+    width: 100%;
+}
+
+.c-blue-s {
+    background: #AEE9E8;
+}
+
+.c-red-s {
+    background: #F4C1E1;
+}
+
+.input_rocko {
+    width: 100%;
+    border: 2px solid #F4C1E1 !important;
+
+
+}
+
+/* .input_rocko:focus {
+    border: none !important;
+
+
+}
+
+input[type=text]:focus {
+    border: none !important;
+} */
+
+[type='text']:focus,
+[type='email']:focus,
+[type='url']:focus,
+[type='password']:focus,
+[type='number']:focus,
+[type='date']:focus,
+[type='datetime-local']:focus,
+[type='month']:focus,
+[type='search']:focus,
+[type='tel']:focus,
+[type='time']:focus,
+[type='week']:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+    --tw-ring-color: #F4C1E1 !important;
+    /* border: 1px solid #F4C1E1 !important; */
+}
+
+
+@media only screen and (max-width: 768px) {
+    .dog_text{
+        font-size:25px;
+    }
+  }

@@ -1,0 +1,50 @@
+.contact_p {
+    font-family: "Raleway Thin";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+
+}
+
+.contact_subT {
+    font-family: "Raleway Thin";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.contact_desc{
+    font-family: "Raleway Thin";
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.contact_map{
+    height: 425px;
+}
+@media only screen and (max-width: 600px) {
+    .contact_p {
+      font-size:25px
+    }
+
+    .contact_subT{
+        font-size:20px
+    }
+    .contact_desc{
+        font-size:15px;
+    }
+    .contact_map{
+        height: 200px;
+    }
+  }

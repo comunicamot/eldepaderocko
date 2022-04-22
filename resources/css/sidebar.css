@@ -1,0 +1,131 @@
+body {
+
+
+    margin: var(--header-height) 0 0 0;
+
+}
+
+.iconSidebar {
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+/* .nav{
+    height: 100vh;
+    width: 100px;
+    z-index: 9999;
+    position: fixed;
+} */
+
+.nav__links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100%;
+    width: 250px;
+    background: rgba(46, 45, 45, 0.933);
+    transform: translateX(-250px);
+    transition: transform 0.3s;
+}
+
+.nav--open .nav__links {
+    transform: translateX(0);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    color: #666666;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 12px 15px;
+    background: transform 0.2s;
+}
+
+.nav__link>i {
+    margin-right: 15px;
+}
+
+.nav__link--active {
+    color: #009578;
+}
+
+.nav__link--active,
+.nav__link:hover {
+    background: #eeeeee;
+}
+
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.nav--open .nav__overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/* ***************************menu***********************/
+.button-register {
+    border: 1px solid #ffffff;
+    color: white;
+    box-sizing: border-box;
+    padding: 2px 8px;
+
+    /* font-family: Raleway; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+}
+
+.header {
+    width: 100%;
+    margin-top: 32px;
+    position: absolute;
+    z-index: 999;
+}
+
+/****************** link active ***************************/
+.t_link {
+    font-family: "Raleway Thin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+
+/* *************************** responsive *************************** */
+@media only screen and (max-width: 600px) {
+    .t_link {
+        font-size: 14px;
+    }
+    .menu_icon img{
+        width:30px;
+        height:30px;
+    }
+    .button-register{
+        font-size: 15px;
+        padding: 2px 10px;
+    }
+  }

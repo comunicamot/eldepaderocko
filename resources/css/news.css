@@ -1,0 +1,279 @@
+.n_card_t {
+    color: white;
+    /* font-family: Raleway; */
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.n_card_d {
+    /* font-family: Raleway; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+}
+
+.n_card_git {
+    /* font-family: Raleway; */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 10px;
+
+}
+
+/* page */
+
+.last_news {
+
+    border-bottom: 2px solid #F4C1E1;
+}
+
+.divider-new {
+    width: 100%;
+    height: 2px;
+    background: #C4C4C4;
+
+}
+
+.text_author {
+    font-family: "Raleway Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: underline;
+    color: #878788;
+
+}
+
+.text_more {
+    font-family: "Raleway Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.div_cate {
+    background: #F4C1E1;
+    padding: 3px 5px;
+    font-family: "Raleway Thin";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+
+.t_last_news {
+    font-family: "Raleway Thin";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.right-inner-addon {
+    position: relative;
+}
+
+.right-inner-addon input {
+    padding-right: 35px !important;
+}
+
+.right-inner-addon img {
+    position: absolute;
+    right: 0px;
+    padding: 12px 12px;
+    /* pointer-events: none; */
+    cursor: pointer;
+}
+
+
+/* card */
+.card_new_title {
+    font-family: "Raleway Thin";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
+}
+
+.card_new_desc {
+    font-family: "Raleway Thin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
+}
+
+/* card cate */
+.card_cate_title {
+    font-family: "Raleway Thin";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+
+.paginate span {
+
+    font-family: "Raleway Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.paginate-item-p {
+    width: 30px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+.paginate-item {
+    background: #C4C4C4;
+
+}
+
+.paginate-item-active {
+
+    background: #000;
+
+}
+
+
+/* card detail */
+
+.title_new_detail {
+    font-family: "Raleway Thin";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+
+}
+
+.desc_new_detail {
+    font-family: "Raleway Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+   
+    color:#5F5F5F;
+
+}
+
+.author_detail_new{
+    font-family: "Raleway Thin";
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: left;
+color:#878788;
+
+}
+
+.date_detail_new{
+    font-family: "Raleway Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#878788;
+    
+}
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+    .card_new_title{
+        font-size: 25px;
+    }
+    .card_new_desc{
+        font-size: 13px;
+    }
+    .text_more{
+        font-size:14px
+    }
+    .text_author{
+        font-size:14px
+    }
+    .card_cate_title{
+        font-size:20px;
+    }
+    .title_new_detail{
+        font-size:25px;
+    }
+    .desc_new_detail{
+        font-size: 14px;
+    }
+    .date_detail_new{
+        font-size: 14px;
+    }
+    .author_detail_new{
+        font-size: 20px;
+        line-height: 2px;
+
+    }
+  }

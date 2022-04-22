@@ -1,0 +1,55 @@
+
+.border-form{
+    border: 1px solid #C4C4C4;
+}
+
+.title_comp {
+    font-family: "Raleway Thin";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#3D3C3C;
+
+}
+
+.input_line {
+    width: 100%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #F4C1E1;
+}
+
+.input_line:focus {
+    border-color: #dbabc9
+}
+
+.send_res {
+    font-family: "Raleway Thin";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.input-border {
+    color: rgb(70, 67, 67);
+    width: 100%;
+    border-bottom: 2px solid #F4C1E1;
+}
+
+.input-border:focus {
+    border-bottom: 2px solid #d4a7c4;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .title_comp  {
+      font-size:20px;
+    }
+  }

@@ -1,0 +1,135 @@
+/* primer info */
+.img-us {
+    width: 100%;
+}
+
+.title-us {
+    font-family: "Raleway Thin";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.desc-us {
+    font-family: "Raleway Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* trajectory */
+
+.trajectory {
+    width: 100%;
+    background: #000;
+    height: 550px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.trajectory_title {
+    font-family: "Raleway Thin";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.trajectory_desc {
+    font-family: "Raleway Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.trajectory_name {
+    font-family: "Raleway Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.trajectory_number {
+    font-family: "Raleway Thin";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.line_us {
+    width: 70%;
+    border: 2px solid #000000;
+}
+
+.canals_p {
+    font-family: "Raleway Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.us_email{
+    font-family: "Raleway Thin";
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .trajectory_title {
+        font-size: 25px;
+    }
+
+    .trajectory_desc {
+        font-size: 16px;
+    }
+
+    .trajectory_icon {
+        width: 50px;
+    }
+
+    .trajectory_number {
+        font-size: 25px;
+    }
+    .canals_p{
+        font-size: 14px;
+    }
+    .us_email{
+        font-size:14px
+    }
+}
