@@ -1,0 +1,92 @@
+<template>
+  <div class="m-10">
+    <TitlePage text="Redes sociales"></TitlePage>
+
+    <div class="flex flex-col md:flex-row gap-14">
+      <template v-for="(item,index) in 3" :key="index">
+        <div class="w-full md:w-4/12">
+
+
+
+        </div>
+      </template>
+    </div>
+
+    
+   
+<iframe width="320" height="440" src="http://instagram.com/p/CcoJq7TuYTT/embed" frameborder="0"></iframe>
+
+    <div class="flex justify-center my-8">
+      <ButtonDiv text="Ver más" styles="c-red-s w-1/2 md:w-1/4"></ButtonDiv>
+    </div>
+  </div>
+</template>
+
+<script>
+import TitlePage from "../TitlePage.vue";
+import CardImage from "../CardImage.vue";
+import ButtonDiv from "../ButtonDiv.vue";
+export default {
+  components: {
+    TitlePage,
+    CardImage,
+    ButtonDiv,
+  },
+  data(){
+      return {
+          data:[1,1,1]
+      }
+  }
+};
+</script>
+
+<style>
+
+/* Demo Styles */
+html {
+  box-sizing: border-box;
+  font:1.2em/1.5 'Lato', sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: left;
+  background-color: #1D1F20;
+  color: #777;
+}
+
+
+
+a,
+a:visited {
+  color: white;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  background-color: #111;
+  padding:3em;
+}
+
+hr {
+  margin: 2em 0;
+  border-color: #333;
+}
+
+/* Instagram Embed */
+iframe[data-src*="instagram.com"], iframe[src*="instagram.com"] {
+  display: block;
+  margin: 3em auto;
+  box-shadow: 0 0 3px #ccc;
+}
+
+</style>

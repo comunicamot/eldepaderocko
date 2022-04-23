@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <SliderCover title="NOSOTROS">
+    <SliderCover
+      title="SOMOS MÁS DE 25 000 ROCKOFRIENDS EN PERÚ Y LATINOAMÉRICA"
+    >
       <template #swiper>
         <SwiperCover :images="['/image/nosotros.webp']"></SwiperCover>
       </template>
@@ -16,7 +18,7 @@
           space-y-2
         "
       >
-        <div class="flex-1 px-5 md:px-8 ">
+        <div class="flex-1 px-5 md:px-8">
           <span class="title-us py-5"> Our team culture </span>
           <p class="py-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
@@ -61,39 +63,59 @@
     <div class="space-page"></div>
     <div class="w-full trajectory text-white">
       <p class="trajectory_title">Nuestra trayectoria</p>
-      <p class="trajectory_desc py-5">
+      <!-- <p class="trajectory_desc py-5">
         Pellentesque eu convallis leo, quis dapibus nisl. Mauris et ultricies
         libero. <br />
         Duis malesuada ligula sed neque vestibulum convallis.
-      </p>
+      </p> -->
+      <div class="container">
+        <div
+          class="row"
+          style="
+            display: flex;
+            margin-bottom: 45px;
+            margin-top: 45px;
+            font-size: 23px;
+          "
+        >
+          <div class="col" style="margin-right: 45px">
+            <strong>Visión:</strong> Ser el portal inmobiliario favorito para
+            pet lovers.
+          </div>
+          <div class="col">
+            <strong>Misión:</strong> Que todos los lugares posibles en el mundo
+            sean pet friendly.
+          </div>
+        </div>
+      </div>
       <div class="flex text-white w-3/4 justify-between py-5">
         <div class="flex flex-col items-center justify-center">
           <div>
             <img src="/image/icon_one.png" alt="" class="trajectory_icon" />
           </div>
-          <div><span class="trajectory_number">25+</span></div>
-          <div>name</div>
+          <div><span class="trajectory_number">25k+</span></div>
+          <div>RockoFriends</div>
         </div>
         <div class="flex flex-col items-center justify-center">
           <div>
             <img src="/image/icon_two.png" alt="" class="trajectory_icon" />
           </div>
-          <div><span class="trajectory_number">12+</span></div>
-          <div>name</div>
+          <div><span class="trajectory_number">3 </span></div>
+          <div>Depas</div>
         </div>
         <div class="flex flex-col items-center justify-center">
           <div>
             <img src="/image/icon_three.png" alt="" class="trajectory_icon" />
           </div>
-          <div><span class="trajectory_number">50+</span></div>
-          <div>name</div>
+          <div><span class="trajectory_number">10 </span></div>
+          <div>Rockopoints</div>
         </div>
         <div class="flex flex-col items-center justify-center">
           <div>
             <img src="/image/icon_four.png" alt="" class="trajectory_icon" />
           </div>
-          <div><span class="trajectory_number">200+</span></div>
-          <div>name</div>
+          <div><span class="trajectory_number">10 </span></div>
+          <div>Beneficios</div>
         </div>
       </div>
     </div>
@@ -108,7 +130,81 @@
       <div class="line_us"></div>
       <p class="canals_p">A través de todos nuestros canales</p>
       <div class="mx-10 md:mx-0">
-        <img src="/image/us_redes.png" alt=""  >
+        <div class="flex md:flex-1">
+          <a
+            href="https://www.instagram.com/eldepaderocko"
+            target="_blank"
+            rel="noopener noreferrer"
+
+          >
+            <img
+              src="/image/web/redes/instagram.png"
+              alt=""
+              srcset=""
+              rel="noopener noreferrer"
+              style="margin-right: 4px"
+            />
+          </a>
+          <a
+            href="https://www.tiktok.com/@eldepaderocko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/image/web/redes/tiktok.png"
+              alt=""
+              srcset=""
+              rel="noopener noreferrer"
+              style="margin-right: 4px"
+          /></a>
+          <a
+            href="https://web.facebook.com/eldepaderocko/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/image/web/redes/facebook.png"
+              alt=""
+              srcset=""
+              rel="noopener noreferrer"
+              style="margin-right: 4px"
+          /></a>
+          <a
+            href="https://pe.linkedin.com/company/eldepaderocko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/image/web/redes/linkedin.png"
+              alt=""
+              srcset=""
+              rel="noopener noreferrer"
+              style="margin-right: 4px"
+          /></a>
+          <a
+            href="https://open.spotify.com/user/7y4usr4t89a7559b3jxs45khr?si=zrzqsWbMRGWMjGCK2pabpA&utm_source=copy-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/image/web/redes/rss.png"
+              alt=""
+              srcset=""
+              rel="noopener noreferrer"
+              style="margin-right: 4px"
+          /></a>
+          <a
+            href="https://twitter.com/Eldepaderocko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/image/web/redes/twitter.png"
+              alt=""
+              srcset=""
+              class="cursor-pointer"
+          /></a>
+        </div>
       </div>
       <p class="us_email">@eldepaderocko</p>
     </div>

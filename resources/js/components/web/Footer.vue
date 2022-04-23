@@ -19,24 +19,27 @@
     <div class="w-full md:w-1/4 my-3 md:my-0">
       <div>
         <p class="f_p">Términos y condiciones</p>
-        <p class="f_p">Quienes somos</p>
         <p class="f_p">
-          <Link href="/contacto">
-            <a >Contacto</a>
+          <Link href="/nosotros">
+            <a>Nosotros</a>
           </Link>
         </p>
-        
         <p class="f_p">
+          <Link href="/contacto">
+            <a>Contacto</a>
+          </Link>
+        </p>
 
-           <Link href="/libro-de-reclamaciones">
-            <a >Libro de reclamaciones</a>
+        <p class="f_p">
+          <Link href="/libro-de-reclamaciones">
+            <a>Libro de reclamaciones</a>
           </Link>
         </p>
       </div>
     </div>
     <div class="w-full md:w-1/4 my-3 md:my-0">
       <p class="f_p">Correo electrónico:</p>
-      <p class="f_p">loremipsum@eldepaderocko.com</p>
+      <p class="f_p">contacto@eldepaderocko.com</p>
       <p class="f_p">Métodos de pago:</p>
       <p>
         <img src="/image/pay.webp" alt="" srcset="" />
@@ -45,8 +48,76 @@
     <div class="w-full md:w-1/4 my-3 md:my-0 flex md:justify-center">
       <div class="">
         <p class="f_p">Teléfono:</p>
-        <p class="f_p_cell">(01) 123-4567</p>
-        <p class=""><img src="/image/reds.png" alt="" srcset="" /></p>
+        <p class="f_p_cell">+51 928 576 714</p>
+        <div class="flex md:flex-1">
+          <a
+            href="https://www.instagram.com/eldepaderocko"
+            target="_blank"
+           
+          >
+            <img
+              src="/image/web/redes/instagram.png"
+              alt=""
+              srcset=""
+             rel="noopener noreferrer" style="margin-right: 4px;"
+            />
+          </a>
+          <a
+            href="https://www.tiktok.com/@eldepaderocko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/image/web/redes/tiktok.png"
+              alt=""
+              srcset=""
+             rel="noopener noreferrer" style="margin-right: 4px;"
+          /></a>
+          <a
+            href="https://web.facebook.com/eldepaderocko/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+               src="/image/web/redes/facebook.png"
+              alt=""
+              srcset=""
+             rel="noopener noreferrer" style="margin-right: 4px;"
+          /></a>
+          <a
+            href="https://pe.linkedin.com/company/eldepaderocko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+             src="/image/web/redes/linkedin.png"
+              alt=""
+              srcset=""
+             rel="noopener noreferrer" style="margin-right: 4px;"
+          /></a>
+          <a
+            href="https://open.spotify.com/user/7y4usr4t89a7559b3jxs45khr?si=zrzqsWbMRGWMjGCK2pabpA&utm_source=copy-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/image/web/redes/rss.png"
+              alt=""
+              srcset=""
+             rel="noopener noreferrer" style="margin-right: 4px;"
+          /></a>
+          <a
+            href="https://twitter.com/Eldepaderocko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+             src="/image/web/redes/twitter.png"
+              alt=""
+              srcset=""
+              class="cursor-pointer"
+          /></a>
+        </div>
       </div>
     </div>
   </div>
