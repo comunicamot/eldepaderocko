@@ -1,6 +1,6 @@
 <template>
   <div
-    class="py-3 px-5 buttonDiv my-2 "
+    class="py-3 px-5 buttonDiv"
     :class="[bold ? 'buttonDiv-bold' : 'buttonDiv-simple',styles]"
   >
     {{ text }}

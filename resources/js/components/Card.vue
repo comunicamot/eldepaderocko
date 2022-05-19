@@ -1,9 +1,9 @@
 <template>
   <div
-    class="bg-white shadow-md border border-gray-200   mb-5"
+    class="bg-white shadow-md"
   >
-    <a href="#">
-      <img class="rounded-t-lg" :src="url" alt="" />
+    <a :href="href">
+      <img class=" " :src="url" alt="" style="width: 100%;"/>
     </a>
     <div class="" :class="bg">
       <slot></slot>
@@ -16,6 +16,7 @@ export default {
   props: {
     url: String,
     bg: String,
+    href: String,
   },
 };
 </script>

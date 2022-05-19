@@ -13,7 +13,7 @@
       "
     >
       <div class="w-full md:w-1/2 ">
-        <img src="image/cardrocko.webp" class="cardrocko" alt="" srcset="" />
+        <img src="/image/web/nosotros/cardrocko.jpg" class="cardrocko" alt="" srcset="" />
       </div>
       <div class="w-full md:w-1/2">
         <div class="">
@@ -21,7 +21,7 @@
           <p class="rockoHa_free rockoHa">¡GRATIS!</p>
           <div class="flex justify-center">
             <ButtonDiv
-              text="Registrarte"
+              text="Regístrate"
               styles="bg-black text-white md:w-1/2  "
             ></ButtonDiv>
           </div>
@@ -40,7 +40,7 @@ export default {
 
 <style>
 .bg-image {
-  background-image: url("/image/bgh.webp");
+  background-image: url("/image/web/nosotros/fondo_rockocard.jpg");
   background-size: cover;
   background-position: center;
   height: 518px;
@@ -69,7 +69,7 @@ export default {
   text-align: center;
 }
 .cardrocko {
-  width: 500px;
+  width: 70%;
   /* height: 281px; */
   border-radius: 0px;
 }

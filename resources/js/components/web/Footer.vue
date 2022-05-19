@@ -42,7 +42,7 @@
       <p class="f_p">contacto@eldepaderocko.com</p>
       <p class="f_p">Métodos de pago:</p>
       <p>
-        <img src="/image/pay.webp" alt="" srcset="" />
+        <img src="/image/web/nosotros/pay.png" alt="" srcset="" />
       </p>
     </div>
     <div class="w-full md:w-1/4 my-3 md:my-0 flex md:justify-center">
@@ -125,7 +125,7 @@
   <div class="w-full h-20 bg-black flex justify-center items-center px-5">
     <div class="w-4/5">
       <span class="copyr">
-        Copyright 2022 - www.eldepaderocko.com - Todos los derechos reservados.
+        Copyright 2022 - eldepaderocko.com - Todos los derechos reservados.
       </span>
     </div>
     <div class="flex w-1/5 justify-end">
@@ -144,7 +144,7 @@ export default {
 <style>
 .copyr {
   /* font-family: Raleway; */
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -154,7 +154,7 @@ export default {
 
 .f_p {
   /* font-family: Raleway; */
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
@@ -166,7 +166,7 @@ export default {
   /* font-family: 'Raleway'; */
   font-style: normal;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 35px;
 
   color: #000000;

@@ -4,14 +4,14 @@
       border-solid border-2 border-gray-300
       bg-white
       shadow-md
-      rounded-lg
+
       
       cardD
       
     "
     :class="classes"
   >
-    <img class="img-card text-center  " :src="url" />
+    <img class="img-card text-center  " :src="url" style="border: 0.01rem solid #d1d5db;" />
   </div>
 </template>
 

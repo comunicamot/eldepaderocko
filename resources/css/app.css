@@ -57,7 +57,7 @@ body {
 }
 
 .space-page {
-    height: 100px;
+    height: 110px;
     width: 100%;
 }
 
@@ -115,4 +115,10 @@ select:focus {
     .dog_text{
         font-size:25px;
     }
-  }
+}
+
+iframe[data-src*="instagram.com"],
+iframe[src*="instagram.com"]{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}

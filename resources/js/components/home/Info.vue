@@ -1,20 +1,36 @@
 <template>
   <div class="flex flex-col md:flex-row justify-center md:m-15">
-    <div class="md:w-1/3 h-72">
-      <img src="/image/estu.webp" class="h-full w-full" alt="" srcset="" />
-    </div>
-    <div class="md:w-1/2 text-left md:h-72 flex bg-black items-center">
-      <div class="p-4 px-9">
-        <p class="hello">¡Hola!</p>
-        <!-- <p class="desc mt-5">
-          Somos el primer portal inmobiliario Pet Friendly en el país.
-          Actualmente contamos con ubicaciones en Punta Hermosa. Ofrecemos
-          opciones de alquiler para familias junto a sus engreídos.
-        </p> -->
-        <p class="desc mt-5">☼ 25k+ RockoFriends</p>
-        <p class="desc mt-5">☼ 3 Depas</p>
-        <p class="desc mt-5">☼ 10 Rockopoints</p>
-        <p class="desc mt-5">☼ 10 Beneficios</p>
+    <div class="w-full trajectory__ text-white">
+      <p class="trajectory_title__">¡Bienvenido RockoFriend!</p>
+      <div class="flex text-white w-3/4 justify-between py-5">
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <img src="/image/icon_one.png" alt="" class="trajectory_icon" />
+          </div>
+          <div><span class="trajectory_number">25k+</span></div>
+          <div class="movil_trayectoria_icons">RockoFriends</div>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <img src="/image/icon_three.png" alt="" class="trajectory_icon" />
+          </div>
+          <div><span class="trajectory_number">3 </span></div>
+          <div class="movil_trayectoria_icons">Depas</div>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <img src="/image/icon_two.png" alt="" class="trajectory_icon" />
+          </div>
+          <div><span class="trajectory_number">10 </span></div>
+          <div class="movil_trayectoria_icons">RockoPoints</div>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+          <img src="/image/web/nosotros/icon_four.png" alt="" class="trajectory_icon" />
+          </div>
+          <div><span class="trajectory_number">10 </span></div>
+          <div class="movil_trayectoria_icons">Beneficios</div>
+        </div>
       </div>
     </div>
   </div>
@@ -42,5 +58,39 @@ export default {};
   line-height: 26px;
 
   color: #ffffff;
+}
+
+.trajectory__ {
+    width: 100%;
+    background: #000;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.trajectory_title__ {
+    font-family: "Raleway Thin";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+.trajectory_title__ {
+    font-family: "Raleway Thin";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: unset;
+    letter-spacing: 0em;
+    text-align: center;
+}
+  .movil_trayectoria_icons {
+    font-size: 10px;
+  }
 }
 </style>

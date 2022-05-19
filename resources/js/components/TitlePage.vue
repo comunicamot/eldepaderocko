@@ -1,6 +1,5 @@
 <template>
-  <div><p class="page_title text-center my-5">{{text}}</p></div>
- 
+  <div><p class="page_title text-center" style="margin-bottom:40px;">{{text}}</p></div>
 </template>
 
 <script>

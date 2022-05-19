@@ -103,7 +103,7 @@ body {
 
 /****************** link active ***************************/
 .t_link {
-    font-family: "Raleway Thin";
+    /* font-family: "Raleway Thin"; */
     font-size: 20px;
     font-style: normal;
     font-weight: 600;

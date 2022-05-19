@@ -5,11 +5,15 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\web\NewController;
 use App\Http\Controllers\Ckeditor;
 
+//::::::::::::::::::::::::::: WEB ::::::::::::::::::::::::
+use App\Http\Controllers\web\NewController;
+use App\Http\Controllers\web\PerfilController;
+use App\Http\Controllers\web\ReservaController;
+use App\Http\Controllers\web\ExperienciaController;
 
-//dashboard
+//::::::::::::::::::::::::::: ADMIN ::::::::::::::::::::::::
 use App\Http\Controllers\NewsController;
 
 
@@ -40,10 +44,14 @@ Route::get("/contacto",[HomeController::class,"contact"]);
 Route::get("/libro-de-reclamaciones",[HomeController::class,"complaintsBook"]);
 
 
-/**************news***************/ 
+//::::::::::::::::::::::::::: WEB ::::::::::::::::::::::::
+Route::get("/noticias",         [NewController::class,"index"])->name('noticia');
+Route::get("/noticias/{slug}",  [NewController::class,"detail"])->name('noticia.detail');
 
-Route::get("/noticias",[NewController::class,"index"])->name('noticia');
-Route::get("/noticias/{slug}",[NewController::class,"detail"])->name('noticia.detail');
+Route::get("/perfil",           [PerfilController::class,"perfil"])->name('perfil');
+Route::get("/reserva",          [ReservaController::class,"reserva"])->name('reserva');
+Route::get("/experiencia",      [ExperienciaController::class,"experiencia"])->name('experiencia');
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin', function () {
     return Inertia::render('Dashboard');

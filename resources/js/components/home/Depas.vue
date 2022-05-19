@@ -12,7 +12,7 @@
         <DepaItem url="/image/web/depa/depa3.jpg" text="Punta hermosa 3"></DepaItem>
       </div>
     </div>
-    <div class="flex justify-center mt-8">
+    <div class="flex justify-center" style="margin-top:40px;">
       <ButtonD text="Ver más" styles="c-red-s text-black w-1/2 md:w-1/4"></ButtonD>
     </div>
   </div>

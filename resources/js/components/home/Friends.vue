@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-10">
+  <div class="mx-10" style="margin-top: 110px;">
     <TitlePage text="#RockoFriends"></TitlePage>
     <div class="flex flex-col md:flex-row gap-5">
       <template v-for="(item, index) in friends" :key="index">
@@ -11,7 +11,7 @@
         </div>
       </template>
     </div>
-    <div class="flex justify-center mt-8">
+    <div class="flex justify-center" style="margin-top:40px;">
       <ButtonDiv text="Ver más" styles="c-red-s w-1/2 md:w-1/4"></ButtonDiv>
     </div>
   </div>

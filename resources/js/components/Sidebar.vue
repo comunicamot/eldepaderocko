@@ -18,8 +18,7 @@
       </div>
       <div
         class="
-          flex 
-          flex-col
+          flex flex-col
           w-full
           flex-wrap
           items-center
@@ -28,28 +27,35 @@
           py-2
         "
       >
-        <div class=" md:flex-1 text-center">
-          <div><LinkActive href="/"><img :src="'/image/rocko.png'" alt="" /></LinkActive></div>
+        <div class="md:flex-1 text-center">
+          <div>
+            <LinkActive href="/"
+              ><img :src="'/image/rocko.png'" alt=""
+            /></LinkActive>
+          </div>
         </div>
-        <div class=" md:flex-1">
+        <div class="md:flex-1">
           <LinkActive href="/rent">Alquilar</LinkActive>
         </div>
-        <div class=" md:flex-1">
+        <div class="md:flex-1">
           <LinkActive href="/nosotros">Nosotros</LinkActive>
         </div>
-        <div class=" md:flex-1">
+        <div class="md:flex-1">
           <LinkActive href="/rent">Rockofriends</LinkActive>
         </div>
-        <div class=" md:flex-1">
+        <div class="md:flex-1">
           <LinkActive href="/noticias">Noticias</LinkActive>
         </div>
-        <div class="flex  md:flex-1 menu_icon">
+        <div class="flex md:flex-1 menu_icon">
           <img src="/image/inst.svg" class="cursor-pointer" alt="" srcset="" />
           <img src="/image/tik.svg" class="cursor-pointer" alt="" srcset="" />
           <img src="/image/fb.svg" class="cursor-pointer" alt="" srcset="" />
         </div>
-        <div class=" md:flex-1 my-5">
-          <button class="button-register">Registrarse</button>
+        <div class="md:flex-1 my-5">
+          <button class="button-register">Regístrate</button>
+        </div>
+        <div class="md:flex-1">
+          <button class="button-register">Iniciar sesión</button>
         </div>
       </div>
     </div>
@@ -59,11 +65,10 @@
 <script>
 import LinkActive from "@/components/LinkActive";
 export default {
-    components:{
-        LinkActive
-    },
+  components: {
+    LinkActive,
+  },
   methods: {
-      
     hideSide() {
       const nav = document.querySelector(".nav");
       nav.classList.remove("nav--open");
